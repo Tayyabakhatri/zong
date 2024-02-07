@@ -1,0 +1,70 @@
+
+body{
+    margin: 240px 450px;
+}
+.canvas{
+    width: 500px;
+    height: 260px;
+    box-shadow: 0px 0px 6px 2px lightgray;
+    border-radius: 30px;
+}
+.canvas .div1{
+    background-color: rgb(172, 255, 47);
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 60px;
+    line-height: 2px;
+}
+button{
+    background-color: darkorange;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-style: italic;
+    margin-left: 10px;
+    
+}
+p{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.numbers{
+    color: black;
+    line-height: 30px;
+    text-align: center;
+   
+}
+span{
+    color: rgb(156, 153, 153);
+    font-size: medium;
+    font-style: italic;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.big{
+    font-size: larger;
+    font-style: italic;
+    color: rgb(172, 255, 47);
+    font-weight: 800;
+    
+}
+.div3 .button{
+background-color: rgb(254, 31, 187);
+width: 180px;
+height: 40px;
+border-radius: 10px;
+box-shadow: 0px 0px 4px 1px gray;
+font-size: large;
+}
+.div3{
+    display: flex;
+    justify-content: space-around;
+}
